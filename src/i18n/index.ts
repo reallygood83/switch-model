@@ -5,7 +5,7 @@ import en from "./locales/en.json";
 import zh from "./locales/zh.json";
 import ko from "./locales/ko.json";
 
-const DEFAULT_LANGUAGE: "zh" | "en" | "ko" = "en";
+const DEFAULT_LANGUAGE: "zh" | "en" | "ko" = "ko";
 
 const getInitialLanguage = (): "zh" | "en" | "ko" => {
   if (typeof window !== "undefined") {
@@ -62,7 +62,7 @@ i18n.use(initReactI18next).init({
   },
 
   // 开发模式下显示调试信息
-  debug: false,
+  debug: true,
 });
 
 export default i18n;

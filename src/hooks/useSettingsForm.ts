@@ -10,10 +10,10 @@ export type SettingsFormState = Omit<Settings, "language"> & {
 };
 
 const normalizeLanguage = (lang?: string | null): Language => {
-  if (!lang) return "zh";
+  if (!lang) return "ko";
   if (lang === "en") return "en";
   if (lang === "ko") return "ko";
-  return "zh";
+  return "ko";
 };
 
 const sanitizeDir = (value?: string | null): string | undefined => {
@@ -48,7 +48,7 @@ export function useSettingsForm(): UseSettingsFormResult {
     null,
   );
 
-  const initialLanguageRef = useRef<Language>("zh");
+  const initialLanguageRef = useRef<Language>("ko");
 
   const readPersistedLanguage = useCallback((): Language => {
     if (typeof window !== "undefined") {
