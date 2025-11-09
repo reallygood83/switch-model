@@ -23,6 +23,7 @@ import UsageScriptModal from "@/components/UsageScriptModal";
 import McpPanel from "@/components/mcp/McpPanel";
 import { FeynmanExplainer } from "@/components/FeynmanExplainer";
 import { TutorialWizard } from "@/components/TutorialWizard";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import { Button } from "@/components/ui/button";
 import "@/styles/neo-brutalism.css";
 
@@ -38,6 +39,7 @@ function App() {
   const [editingProvider, setEditingProvider] = useState<Provider | null>(null);
   const [usageProvider, setUsageProvider] = useState<Provider | null>(null);
   const [confirmDelete, setConfirmDelete] = useState<Provider | null>(null);
+  const [languageSelected, setLanguageSelected] = useState(false);
 
   const { data, isLoading, refetch } = useProvidersQuery(activeApp);
   const providers = useMemo(() => data?.providers ?? {}, [data]);
@@ -184,12 +186,12 @@ function App() {
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-1">
             <a
-              href="https://github.com/farion1231/cc-switch"
+              href="https://github.com/reallygood83/switch-model"
               target="_blank"
               rel="noreferrer"
               className="text-xl font-semibold text-blue-500 transition-colors hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
             >
-              CC Switch
+              Switch-Model
             </a>
             <Button
               variant="ghost"
@@ -320,6 +322,13 @@ function App() {
         isOpen={isTutorialOpen}
         onClose={() => setIsTutorialOpen(false)}
         onComplete={handleTutorialComplete}
+      />
+
+      <LanguageSelector
+        onLanguageSelected={(language) => {
+          setLanguageSelected(true);
+          console.log("Language selected:", language);
+        }}
       />
     </div>
   );

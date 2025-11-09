@@ -135,16 +135,16 @@ export function FeynmanExplainer() {
 
       {/* 🚀 Quick Start Guide */}
       <div
-        className="neo-card"
-        style={{ background: "var(--neo-neon-green)" }}
+        className="neo-card text-black"
+        style={{ background: "var(--neo-yellow-pop)" }}
       >
         <div className="flex items-start gap-4">
-          <Rocket className="h-10 w-10 flex-shrink-0" />
+          <Rocket className="h-10 w-10 flex-shrink-0 text-black" />
           <div>
-            <h3 className="text-xl font-black uppercase mb-3">
+            <h3 className="text-xl font-black uppercase mb-3 text-black">
               {t("explainer.quickStart.title")}
             </h3>
-            <ol className="space-y-2 text-base font-semibold">
+            <ol className="space-y-2 text-base font-semibold text-black">
               <li className="flex gap-2">
                 <span className="neo-badge neo-badge-blue flex-shrink-0">1</span>
                 <span>{t("explainer.quickStart.step1")}</span>

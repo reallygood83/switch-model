@@ -50,11 +50,11 @@ export function TutorialWizard({ isOpen, onClose, onComplete }: TutorialWizardPr
     const stepKey = `tutorial.step${currentStep}`;
     return (
       <div className="space-y-4">
-        <div className="neo-card" style={{ background: "var(--neo-yellow-pop)" }}>
-          <h3 className="text-xl font-black uppercase mb-3">
+        <div className="neo-card text-black" style={{ background: "var(--neo-yellow-pop)" }}>
+          <h3 className="text-xl font-black uppercase mb-3 text-black">
             {t(`${stepKey}.title`)}
           </h3>
-          <p className="text-base leading-relaxed whitespace-pre-line">
+          <p className="text-base leading-relaxed whitespace-pre-line text-black">
             {t(`${stepKey}.content`)}
           </p>
         </div>
