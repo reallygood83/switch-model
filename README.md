@@ -1,11 +1,14 @@
 <div align="center">
 
-# 🎯 CC Switch - 초보자 친화적 AI Provider 관리 도구
+# 🎯 Switch-Code - 초보자 친화적 AI Provider 관리 도구
+
+> **Switch-Code**는 [CC Switch](https://github.com/farion1231/cc-switch) (MIT License)를 기반으로 커스터마이징한 프로젝트입니다.
 
 [![Version](https://img.shields.io/badge/version-3.6.0%2B-blue.svg)](https://github.com/reallygood83/switch-model/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/reallygood83/switch-model/releases)
 [![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri%202-orange.svg)](https://tauri.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Based on CC Switch](https://img.shields.io/badge/based%20on-CC%20Switch-blue.svg)](https://github.com/farion1231/cc-switch)
 
 **[English](#english)** | **[한국어](#korean)** | [中文](README_ZH.md)
 
@@ -248,6 +251,8 @@ MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일 참조
 <a name="english"></a>
 
 # 🇺🇸 English
+
+> **Switch-Code** is a customized version based on [CC Switch](https://github.com/farion1231/cc-switch) (MIT License).
 
 ## ✨ Key Features
 
