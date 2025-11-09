@@ -1,0 +1,14 @@
+node_modules/
+dist/
+release/
+.DS_Store
+*.log
+.env
+.env.local
+*.tsbuildinfo
+.npmrc
+CLAUDE.md
+AGENTS.md
+/.claude
+/.vscode
+vitest-report.json

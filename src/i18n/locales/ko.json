@@ -1,0 +1,138 @@
+{
+  "app": {
+    "title": "CC 스위치",
+    "description": "Claude Code & Codex 공급자 전환 도구"
+  },
+  "common": {
+    "add": "추가",
+    "edit": "편집",
+    "delete": "삭제",
+    "save": "저장",
+    "saving": "저장 중...",
+    "cancel": "취소",
+    "confirm": "확인",
+    "close": "닫기",
+    "done": "완료",
+    "settings": "설정",
+    "about": "정보",
+    "version": "버전",
+    "loading": "로딩 중...",
+    "success": "성공",
+    "error": "오류",
+    "unknown": "알 수 없음",
+    "enterValidValue": "유효한 값을 입력하세요",
+    "clear": "지우기",
+    "toggleTheme": "테마 전환",
+    "format": "형식화",
+    "formatSuccess": "형식화 성공",
+    "formatError": "형식화 실패: {{error}}"
+  },
+  "header": {
+    "addProvider": "공급자 추가",
+    "enterEditMode": "편집 모드 진입",
+    "exitEditMode": "편집 모드 종료"
+  },
+  "explainer": {
+    "header": {
+      "title": "🎯 CC Switch가 뭔가요?",
+      "subtitle": "어려운 용어는 그만! 일상 비유로 쉽게 이해해보세요 😊"
+    },
+    "remoteControl": {
+      "title": "TV 리모컨처럼",
+      "analogy": "CC Switch는 TV 리모컨과 같습니다!",
+      "details": "🎮 TV 리모컨으로 채널을 바꾸듯이, CC Switch로 AI 서비스를 클릭 한 번에 바꿀 수 있어요.\n\n📺 리모컨 버튼 누르기 = Provider 전환하기\n✅ 설정 파일을 직접 편집할 필요 없음\n✅ 실수로 잘못 입력할 걱정 없음\n✅ 언제든지 다시 바꿀 수 있음"
+    },
+    "apiKey": {
+      "title": "출입증 카드",
+      "analogy": "API Key는 회사 출입증 카드예요!",
+      "details": "🏢 회사마다 다른 출입증이 필요하듯이, AI 서비스마다 다른 API Key가 필요해요.\n\n🔑 API Key = AI 서비스 출입증\n👨‍💼 회사 카드 = Anthropic 공식 API Key\n👤 개인 카드 = DeepSeek, OpenRouter 등\n\nCC Switch는 여러 개의 출입증을 관리해주는 카드지갑 같은 거예요!"
+    },
+    "switching": {
+      "title": "옷장 갈아입기",
+      "analogy": "Provider 전환은 옷장에서 옷 갈아입는 것과 같아요!",
+      "details": "👔 상황에 맞게 옷을 골라 입듯이, 작업에 맞는 AI를 선택하세요.\n\n🏃 운동복 (DeepSeek) = 빠르고 저렴한 작업용\n👔 정장 (Claude Opus) = 중요하고 복잡한 작업용\n👕 일상복 (OpenRouter) = 평소 작업용\n\n옷장(CC Switch)에서 클릭 한 번으로 갈아입기!"
+    },
+    "provider": {
+      "title": "배달 앱 선택",
+      "analogy": "Provider는 배달의민족, 쿠팡이츠 같은 배달 앱이에요!",
+      "details": "🍔 같은 햄버거를 주문해도 앱마다 가격이 다르죠?\n\nAI도 마찬가지예요:\n💰 DeepSeek = 저렴한 배달앱\n⚡ OpenRouter = 빠른 배달앱\n🌟 Anthropic = 프리미엄 배달앱\n\nCC Switch로 상황에 맞는 배달앱을 선택하세요!"
+    },
+    "quickStart": {
+      "title": "🚀 5분 안에 시작하기",
+      "step1": "\"공급자 추가\" 버튼 클릭",
+      "step2": "API Key 입력 (출입증 카드 번호)",
+      "step3": "저장하고 \"전환\" 버튼 클릭",
+      "step4": "터미널 재시작하면 끝! 🎉"
+    },
+    "video": {
+      "title": "📺 영상으로 배우기",
+      "comingSoon": "곧 만나요! 🎬"
+    }
+  },
+  "provider": {
+    "name": "이름",
+    "category": "카테고리",
+    "website": "웹사이트",
+    "current": "현재 사용 중",
+    "switch": "전환",
+    "switchSuccess": "{{name}}(으)로 전환되었습니다",
+    "switchFailed": "전환 실패",
+    "addProvider": "공급자 추가",
+    "editProvider": "공급자 편집",
+    "deleteProvider": "공급자 삭제",
+    "duplicateProvider": "복제",
+    "emptyState": "아직 추가된 공급자가 없어요",
+    "emptyStateHint": "\"공급자 추가\" 버튼을 눌러 첫 번째 공급자를 추가하세요!",
+    "sortUpdateFailed": "순서 업데이트 실패"
+  },
+  "notifications": {
+    "providerAdded": "공급자가 추가되었습니다",
+    "providerUpdated": "공급자가 수정되었습니다",
+    "providerDeleted": "공급자가 삭제되었습니다",
+    "openLinkFailed": "링크 열기 실패"
+  },
+  "confirm": {
+    "deleteProvider": "공급자 삭제",
+    "deleteProviderMessage": "정말 \"{{name}}\"을(를) 삭제하시겠습니까?"
+  },
+  "settings": {
+    "title": "설정",
+    "language": "언어",
+    "languageHint": "애플리케이션 표시 언어를 선택하세요",
+    "languageOptionChinese": "中文",
+    "languageOptionEnglish": "English",
+    "languageOptionKorean": "한국어",
+    "theme": "테마",
+    "directory": "디렉토리",
+    "importExport": "가져오기/내보내기",
+    "about": "정보"
+  },
+  "tutorial": {
+    "welcome": {
+      "title": "👋 환영합니다!",
+      "subtitle": "CC Switch를 처음 사용하시나요? 간단한 튜토리얼을 시작할까요?",
+      "start": "튜토리얼 시작",
+      "skip": "건너뛰기"
+    },
+    "step1": {
+      "title": "1단계: 공급자란?",
+      "content": "공급자(Provider)는 AI 서비스를 제공하는 회사예요. DeepSeek, OpenRouter, Anthropic 같은 곳들이 있죠!",
+      "next": "다음"
+    },
+    "step2": {
+      "title": "2단계: API Key 추가하기",
+      "content": "API Key는 AI 서비스를 사용하기 위한 출입증이에요. 각 회사 웹사이트에서 발급받을 수 있어요.",
+      "next": "다음"
+    },
+    "step3": {
+      "title": "3단계: 전환하기",
+      "content": "\"전환\" 버튼을 클릭하면 해당 공급자로 바로 변경돼요. 마치 TV 채널 바꾸듯이 간단해요!",
+      "next": "다음"
+    },
+    "step4": {
+      "title": "4단계: 터미널 재시작",
+      "content": "전환 후 터미널을 재시작하면 새로운 설정이 바로 적용됩니다!",
+      "finish": "완료"
+    }
+  }
+}
